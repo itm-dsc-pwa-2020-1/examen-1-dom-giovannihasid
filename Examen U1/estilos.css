@@ -1,0 +1,212 @@
+	*{
+		margin:0;
+		padding: 0;
+	}
+	body{	
+		margin-top: -20px;
+		background-color:white;
+		color: #000;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+	.contenedor{
+		margin: 20px auto;
+		display: grid;
+		grid-gap: 5px; /*Espacio entre elementos*/
+		grid-template-columns: repeat(6,1fr);
+		grid-template-rows: repeat(4, auto);
+		align-items: stretch; /*Se expande al tamaño de la caja*/
+	}
+
+	.contenedor div, nav, header, footer, section, aside{
+		padding: 20px;
+		border-radius: 4px;
+	}
+
+
+	/*Cuerpo*/
+	.header-border{
+		margin-top: -60px;
+		display: grid;
+		grid-row: 1;
+		grid-template-columns: repeat(2,1fr);
+		height: 35px;
+
+	}
+	.header-left{
+
+	}
+	.header-left a{
+		padding-left: 10px;
+	}
+	.header-right{
+		text-align: right;
+	}
+	.header-right a{
+		padding-right: 10px;
+	}
+
+	.encabezado{
+		background-color: white;
+		grid-column: 1/7;
+		grid-row: 1;
+		display: grid;
+		grid-template-rows: repeat(2, auto);
+		width: 100%;
+	}
+	.anuncio{
+		background-color: white;
+		grid-row: 2;
+		grid-column: 1/7;
+		background:#E9ECF4; 
+		text-align: center;
+		width: 90%;
+		margin: auto;
+	}
+	.seccion{
+			background-color: white;
+
+		grid-row:3;
+		grid-column: 1/7;
+		grid-template-rows: repeat(3, auto);
+		align-content: center;
+		width: 90%;	
+		margin: auto;
+	}	
+		.principal img{
+			width: 100%;
+		}
+		.tendencia{
+			display: grid;
+			grid-template-columns: repeat(2,1fr);
+			grid-gap: 15px;
+		}
+		.tendencia-img1{
+			grid-column: 1;
+			width: 100%;
+			height: 99.75%;
+		}
+		.tendencia-img2{
+			grid-column: 2;
+			width: 100%;
+		}
+		.destacados-img{
+			display: grid;
+			grid-gap: 15px;
+
+		}
+		.destacados-img img{
+			width: 100%;
+		}
+
+	.more{
+		display: grid;
+		grid-row: 4;
+		grid-column: 1/7;
+		width: 90%;
+		margin: auto;
+
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
+	}
+	.more img{
+		grid-row: 2;
+		display: grid;
+		width: 100%;
+	}
+
+	.pie{
+				background-color: white;
+
+		display: grid;
+		grid-column: 3;
+		grid-row:5;
+	}
+
+	.navegacion{
+		margin-top: -20px;
+		display: grid;
+		grid-row: 2;
+		height: 90px;
+		grid-template-columns: repeat(5,1fr);
+	}
+	.navegacion img{
+		width:80px;
+	}
+
+	.enlaces{
+		grid-column: 2/6;
+		align-content: center;
+		font-size: 15px;
+		margin-top: 20px;
+	}
+	.enlaces a{
+		margin-left: 25px;
+		text-align: center;
+	}
+	.enlac{
+		text-decoration: none;
+		color: grey;
+	}
+	.enlac:hover{
+		color: black;
+		font-weight: bold;
+	}
+
+	.logo{
+		display: grid;
+		
+	}
+
+	.icon-img{
+		max-width: 15px;
+		width: 100%;
+	}
+	.catalogo{
+		display: grid;
+		grid-row: 5;
+		grid-column: 2;
+	}
+
+	/* Para funciones */
+
+	.boton{
+	margin-top: 15px;
+	width: 150px;
+	height: 50px;
+	margin-left: 20px;
+	font-size: 15px;
+	border-radius: 10px;
+	background-color: #0000;
+}
+.boton2{
+	margin-top: 15px;
+	width: 150px;
+	height: 50px;
+	margin-left: 20px;
+	font-size: 15px;
+	border-radius: 10px;
+	background-color: #87807F;
+	color: #FFF;
+}
+
+.boton:hover{
+	background: #E9ECF4;
+	color:black;
+}
+
+.boton2:hover{
+	background: #E9ECF4;
+	color:white;
+}
+
+	.enlac2{
+		text-decoration: none;
+		color: white;
+	}
+	.enlac2:hover{
+		color: white;
+		font-weight: bold;
+	}
+	
+
+
